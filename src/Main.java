@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 public class Main {
-    //TODO//komentarz do todo
+    //TODO komentarz do todo
 
     public static void main(String[] args) {
         /*
@@ -11,7 +13,7 @@ public class Main {
 
         System.out.println(a + "+" + b + "=" + Main.sum(a,b));
         System.out.println(a % b); // modulo
-        */  //   method sum()
+        */     //   method sum()
 
         /*String account = " Janusz Tracz ";
         System.out.println(account.length());
@@ -26,19 +28,23 @@ public class Main {
 
         char[] hello = {'h','e','l','l','o'};
         System.out.println(hello);
-        System.out.println(Character.isDigit(A));*/ // String and char
+        System.out.println(Character.isDigit(A));*/     //  String and char
 
-        int c=7, d=5;   // liczby do pętli logiki
+        /*int c=7, d=5;   // liczby do pętli logiki
         if (c>d & d==5){
             System.out.println("Wariant 1");
         }else if (c==d | c==3){
             System.out.println("Wariant 2");
         }else{
             System.out.println("Wariant 3");
-        }
+        }*/     //  if()
 
-
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Wpisz imię");
+        String userFirstName = scanner.nextLine();
+        System.out.println("Wpisz nazwisko");
+        String userLastName = scanner.nextLine();
+        System.out.println("Witaj "+userFirstName+" "+userLastName+"!");
 
     }
 

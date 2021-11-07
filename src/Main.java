@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -37,7 +38,7 @@ public class Main {
             System.out.println("Wariant 2");
         }else{
             System.out.println("Wariant 3");
-        }*/     //  if()
+        }*/     //  if loop
 
         /*Scanner scanner = new Scanner(System.in);
         System.out.println("Wpisz imię");
@@ -54,6 +55,18 @@ public class Main {
         number2 = ++number1;
         System.out.println(number2);
         System.out.println(++number2);*/     // increment
+
+        /*String[] nameTable1 = new String[4];
+        String[] nameTable2 = {"Janusz","Grażyna","Brajan","Dżesika"};
+        ArrayList<String> arrayList = new ArrayList<>();
+
+        for (int i=0;i<nameTable2.length;i++){
+            System.out.println(nameTable2[i]);
+            nameTable1[nameTable1.length] = nameTable2[i];
+        }
+        for (int i = 0; i < nameTable1.length; i++) {
+            System.out.println(nameTable1[i]);
+        }*/     // table and for loop
 
     }
 

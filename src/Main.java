@@ -13,7 +13,7 @@ public class Main {
         System.out.println(a % b); // modulo
         */  //   method sum()
 
-        String account = " Janusz Tracz ";
+        /*String account = " Janusz Tracz ";
         System.out.println(account.length());
         System.out.println(account.indexOf('a'));
         System.out.println(account.substring(0,7));
@@ -26,7 +26,19 @@ public class Main {
 
         char[] hello = {'h','e','l','l','o'};
         System.out.println(hello);
-        System.out.println(Character.isDigit(A));
+        System.out.println(Character.isDigit(A));*/ // String and char
+
+        int c=7, d=5;   // liczby do pętli logiki
+        if (c>d & d==5){
+            System.out.println("Wariant 1");
+        }else if (c==d | c==3){
+            System.out.println("Wariant 2");
+        }else{
+            System.out.println("Wariant 3");
+        }
+
+
+
 
     }
 

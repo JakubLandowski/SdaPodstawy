@@ -7,13 +7,11 @@ public class Main {
 
         int b = 5;
         int a = 10;
-        int c = Main.sum(a,b);
 
-        System.out.println(a + "+" + b + "=" + c);
+        System.out.println(a + "+" + b + "=" + Main.sum(a,b));
     }
 
      public static int sum(int a, int b){
-        int c = a+b;
-        return c;
+        return a+b;
     }
 }

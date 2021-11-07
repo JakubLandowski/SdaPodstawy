@@ -39,12 +39,21 @@ public class Main {
             System.out.println("Wariant 3");
         }*/     //  if()
 
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("Wpisz imię");
         String userFirstName = scanner.nextLine();
         System.out.println("Wpisz nazwisko");
         String userLastName = scanner.nextLine();
-        System.out.println("Witaj "+userFirstName+" "+userLastName+"!");
+        System.out.println("Witaj "+userFirstName+" "+userLastName+"!");*/     //  Scanner
+
+        /*int number1 = 3, number2;
+        System.out.println(number1++);
+        System.out.println(++number1);
+        number2 = number1++;
+        System.out.println(number2);
+        number2 = ++number1;
+        System.out.println(number2);
+        System.out.println(++number2);*/     // increment
 
     }
 
